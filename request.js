@@ -15,7 +15,7 @@ const run = async () => {
    } catch (error) {
       console.log({ message: error });
    } finally {
-      await sleep(1000 * 5 * 60);
+      await sleep(1000 * 60 * 2);
       run();
    }
 };
